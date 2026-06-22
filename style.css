@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav ul{
+    list-style:none;
+    margin-top:15px;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ffd700;
+}
+
+section{
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+
+.projeto{
+    margin-bottom:20px;
+    padding:15px;
+    border-left:4px solid #1e3a8a;
+    background:#f8f8f8;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:10px;
+}
+
+input,
+textarea{
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    height:120px;
+}
+
+button{
+    margin-top:15px;
+    padding:12px;
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#162d6b;
+}
+
+#resultado{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+/* Botão de tema */
+
+.tema-container{
+    margin-top:15px;
+}
+
+.tema-container button{
+    background:#ffffff;
+    color:#1e3a8a;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Tema Escuro */
+
+.dark-mode{
+    background:#121212;
+    color:#ffffff;
+}
+
+.dark-mode section{
+    background:#1e1e1e;
+    color:#ffffff;
+}
+
+.dark-mode h2{
+    color:#66b2ff;
+}
+
+.dark-mode .projeto{
+    background:#2b2b2b;
+    border-left:4px solid #66b2ff;
+}
+
+.dark-mode input,
+.dark-mode textarea{
+    background:#333;
+    color:#fff;
+    border:1px solid #666;
+}
+
+.dark-mode footer{
+    background:#000;
+}
+
+.dark-mode header{
+    background:#000;
+}
